@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Claude Code local settings (personal overrides, not for sharing)
+.claude/settings.local.json
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Sourcing output (fetched job data — not source code)
+sourcing/output/
+
+# Logs
+*.log
+logs/
+
+# Ad-hoc run artifacts (checkpoints, tournament outputs)
+scoring/ad_hoc/runs/
+
+# uv
+.uv/
+uv.lock
+group-rerank.json
+
+# The example personas' DBs are shipped on purpose (Dana: rebuild with scripts/build_demo.sh)
+!examples/dana_example/jobtracker.db
+!examples/israel_israeli/jobtracker.db
+
+# Per-user files (profile, rules, CV, PDFs) live in resources/ or $JOBTRACKER_HOME and are never
+# committed; only the templates are. The shipped examples live in examples/.
+resources/*
+!resources/templates/

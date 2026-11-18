@@ -1,0 +1,83 @@
+{
+  "run": "20261118_153139_c4_israel_scorers",
+  "steps": [
+    {
+      "step": "judge_relevance",
+      "at": "2026-11-18T15:32:10",
+      "git_commit": "8ae0fd5",
+      "git_dirty": false,
+      "db": "examples/israel_israeli/jobtracker.db",
+      "db_sha256": "25a22dd9f9017e99",
+      "persona": "israel_israeli",
+      "labels_sha256": "d3782f55a99374bc",
+      "judge_model": "sonnet",
+      "n_labeled": 49,
+      "n_todo": 49,
+      "workers": 5,
+      "wall_s": 30.7,
+      "errors": []
+    },
+    {
+      "step": "score",
+      "at": "2026-11-18T15:33:30",
+      "git_commit": "8ae0fd5",
+      "git_dirty": false,
+      "db": "examples/israel_israeli/jobtracker.db",
+      "db_sha256": "25a22dd9f9017e99",
+      "persona": "israel_israeli",
+      "labels_sha256": "d3782f55a99374bc",
+      "scorer": "claude/haiku",
+      "n": 49,
+      "workers": 5,
+      "wall_s": 80.0,
+      "errors": [],
+      "total_cost_usd": 0.0624,
+      "note": "Same prompt as the Ollama engine (scoring/engines/llm_prompt.py); not written to the DB."
+    },
+    {
+      "step": "judge_relevance",
+      "at": "2026-11-18T15:33:31",
+      "git_commit": "8ae0fd5",
+      "git_dirty": false,
+      "db": "examples/israel_israeli/jobtracker.db",
+      "db_sha256": "25a22dd9f9017e99",
+      "persona": "israel_israeli",
+      "labels_sha256": "d3782f55a99374bc",
+      "judge_model": "sonnet",
+      "n_labeled": 49,
+      "n_todo": 0,
+      "workers": 5,
+      "wall_s": 0.0,
+      "errors": []
+    },
+    {
+      "step": "score",
+      "at": "2026-11-18T15:34:23",
+      "git_commit": "8ae0fd5",
+      "git_dirty": false,
+      "db": "examples/israel_israeli/jobtracker.db",
+      "db_sha256": "25a22dd9f9017e99",
+      "persona": "israel_israeli",
+      "labels_sha256": "d3782f55a99374bc",
+      "scorer": "claude/sonnet",
+      "n": 49,
+      "workers": 5,
+      "wall_s": 52.1,
+      "errors": [],
+      "total_cost_usd": 0.6024,
+      "note": "Same prompt as the Ollama engine (scoring/engines/llm_prompt.py); not written to the DB."
+    },
+    {
+      "step": "report",
+      "at": "2026-11-18T15:34:26",
+      "git_commit": "8ae0fd5",
+      "git_dirty": false,
+      "db": "examples/israel_israeli/jobtracker.db",
+      "db_sha256": "25a22dd9f9017e99",
+      "persona": "israel_israeli",
+      "labels_sha256": "d3782f55a99374bc",
+      "n_posts": 1182,
+      "n_labels": 49
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Israel Israeli",
+  "headline": "Junior Data Scientist",
+  "contact": {"location": "Tel Aviv, Israel"},
+  "professional_profile": "Data scientist with 3 years of experience turning product and operations data into models that ship. Comfortable across the full loop: SQL extraction, pandas feature work, scikit-learn modeling, and putting models behind a simple API. Looking to grow on a product-facing data science team.",
+  "experience": [
+    {
+      "title": "Data Scientist",
+      "company": "Orchard Analytics Ltd.",
+      "years": "2024-present",
+      "bullets": [
+        "Built a churn prediction model (gradient boosting, scikit-learn) for a B2B subscription product; used by the customer success team to prioritize weekly outreach.",
+        "Wrote SQL and pandas pipelines over ~50M event rows to build user-level features; cut feature build time from hours to minutes.",
+        "Packaged models as a FastAPI service in Docker and set up a weekly retraining job with basic drift checks.",
+        "Ran A/B test analyses for pricing page experiments and presented results to product managers."
+      ]
+    },
+    {
+      "title": "Junior Data Analyst",
+      "company": "Bluefin Logistics",
+      "years": "2022-2024",
+      "bullets": [
+        "Built demand forecasting baselines (linear models, seasonal decomposition) for warehouse staffing.",
+        "Owned recurring SQL reports and dashboards (Tableau) for operations leadership.",
+        "Automated data quality checks in Python, catching missing and duplicate shipment records before reporting."
+      ]
+    }
+  ],
+  "education": [
+    {"degree": "B.Sc. Industrial Engineering and Management", "institution": "Fictional Institute of Technology", "years": "2018-2022"}
+  ],
+  "skills": ["Python", "SQL", "pandas", "NumPy", "scikit-learn", "XGBoost", "statistics", "A/B testing", "FastAPI", "Docker", "Git", "Airflow (basic)", "Tableau", "PostgreSQL", "Jupyter"],
+  "projects": [
+    {"name": "Delivery ETA estimation", "description": "Regression model predicting delivery times from route and weather features; scikit-learn pipeline with cross-validation, served as a small REST endpoint."},
+    {"name": "Hebrew review sentiment", "description": "Text classification on public product reviews with TF-IDF and logistic regression, plus a short comparison against a pretrained transformer."}
+  ]
+}

@@ -1,0 +1,7 @@
+# Lever slug registry.
+# slug = the company name in jobs.lever.co/{slug}
+
+confirmed:
+  - {slug: cloudinary, name: Cloudinary}
+
+candidates: []

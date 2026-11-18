@@ -1,0 +1,13 @@
+# Comeet slug registry.
+# slug format: "{uid}:{token}". Both values are embedded in the company's careers page HTML
+# (look for COMEET.init(), a `comeetvar` blob or `widgetParams`).
+
+confirmed:
+  - {slug: "99.002:99242FE9921CB6042FE396C42FE132442FE",     name: Dream}
+  - {slug: "B8.00B:8BB34623D1D45D8346203D1D08BB8BB",         name: Qodo}
+  - {slug: "E6.001:6E12946DC230276E13DE93708294637083708",   name: "AI21 Labs"}
+  - {slug: "0A.00F:A0F46691E2D324B324B324B3C5A5078141E141E", name: Sedric}
+  - {slug: "C9.004:9C4445C13881D4C1D4C445C57E43A98445C1388", name: Quicklizard}
+  - {slug: "46.005:645259E645C8A32281F59259E1F596453228",    name: Nym}
+
+candidates: []

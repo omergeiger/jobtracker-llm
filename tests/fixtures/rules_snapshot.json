@@ -1,0 +1,229 @@
+{
+ "clearance": {
+  "bonus_signals": [],
+  "dealbreaker": true,
+  "dealbreaker_reason": "Requires a security clearance",
+  "domain_match": "",
+  "engine": "rules",
+  "location_match": "",
+  "role_match": "",
+  "score": 5.0,
+  "summary": "Dealbreaker: Requires a security clearance"
+ },
+ "data_scientist_title": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "",
+  "engine": "rules",
+  "location_match": "",
+  "role_match": "Non-technical function: data scientist",
+  "score": 15.0,
+  "summary": "Non-technical function — outside target role type (data scientist)"
+ },
+ "devops_k8s": {
+  "bonus_signals": [
+   "Go and/or Kubernetes in the stack"
+  ],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Open-to domain match — platform / infrastructure",
+  "engine": "rules",
+  "location_match": "Tel Aviv area hybrid (unknown days)",
+  "role_match": "Mid-level - target level",
+  "score": 74.0,
+  "summary": "Moderate match: adjacent domain, preferred location, target seniority/role type, 1 bonus signal(s)."
+ },
+ "director": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "Tel Aviv area hybrid (unknown days)",
+  "role_match": "Director - not an IC role",
+  "score": 67.0,
+  "summary": "Moderate match: primary domain (Backend / distributed systems), preferred location. Gaps: below target seniority."
+ },
+ "frontend_and_backend": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "Tel Aviv area hybrid (unknown days)",
+  "role_match": "Mid-level - target level",
+  "score": 83.0,
+  "summary": "Strong match: primary domain (Backend / distributed systems), preferred location, target seniority/role type."
+ },
+ "frontend_only": {
+  "bonus_signals": [],
+  "dealbreaker": true,
+  "dealbreaker_reason": "Frontend-only or mobile-only role",
+  "domain_match": "",
+  "engine": "rules",
+  "location_match": "",
+  "role_match": "",
+  "score": 5.0,
+  "summary": "Dealbreaker: Frontend-only or mobile-only role"
+ },
+ "intern": {
+  "bonus_signals": [],
+  "dealbreaker": true,
+  "dealbreaker_reason": "intern, student or new-grad role",
+  "domain_match": "",
+  "engine": "rules",
+  "location_match": "",
+  "role_match": "",
+  "score": 5.0,
+  "summary": "Dealbreaker: intern, student or new-grad role"
+ },
+ "israel_other_city": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Generic software role - no specific backend signal",
+  "engine": "rules",
+  "location_match": "Israel - outside the Tel Aviv area",
+  "role_match": "Mid-level - target level",
+  "score": 46.0,
+  "summary": "Weak match: acceptable location, target seniority/role type. Gaps: domain mismatch."
+ },
+ "legacy_penalty": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "Tel Aviv area hybrid (unknown days)",
+  "role_match": "Mid-level - target level; Mostly legacy maintenance",
+  "score": 77.0,
+  "summary": "Strong match: primary domain (Backend / distributed systems), preferred location, target seniority/role type."
+ },
+ "no_signal": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "No clear backend signal",
+  "engine": "rules",
+  "location_match": "Israel - outside the Tel Aviv area",
+  "role_match": "Mid-level - target level",
+  "score": 41.0,
+  "summary": "Weak match: acceptable location, target seniority/role type. Gaps: domain mismatch."
+ },
+ "onsite_berlin": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "On-site outside Israel",
+  "role_match": "Mid-level - target level",
+  "score": 55.0,
+  "summary": "Moderate match: primary domain (Backend / distributed systems), target seniority/role type. Gaps: location outside preferences."
+ },
+ "onsite_london": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "UK-restricted - not accessible from Israel",
+  "role_match": "Senior - target level",
+  "score": 59.0,
+  "summary": "Moderate match: primary domain (Backend / distributed systems), target seniority/role type. Gaps: location outside preferences."
+ },
+ "payments_mid": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Open-to domain match — fintech / payments",
+  "engine": "rules",
+  "location_match": "Tel Aviv area hybrid (3 days/week)",
+  "role_match": "Mid-level - target level",
+  "score": 70.0,
+  "summary": "Moderate match: adjacent domain, preferred location, target seniority/role type."
+ },
+ "recruiter_title": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "",
+  "engine": "rules",
+  "location_match": "",
+  "role_match": "Non-technical function: recruiter",
+  "score": 15.0,
+  "summary": "Non-technical function — outside target role type (recruiter)"
+ },
+ "remote_unclear": {
+  "bonus_signals": [
+   "Go and/or Kubernetes in the stack"
+  ],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Open-to domain match — platform / infrastructure",
+  "engine": "rules",
+  "location_match": "Remote - geographic scope unclear",
+  "role_match": "Mid-level - target level",
+  "score": 52.0,
+  "summary": "Weak match: adjacent domain, target seniority/role type, 1 bonus signal(s). Gaps: remote with geographic restrictions."
+ },
+ "remote_us_only": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "US-restricted - not accessible from Israel",
+  "role_match": "Mid-level - target level",
+  "score": 57.0,
+  "summary": "Moderate match: primary domain (Backend / distributed systems), target seniority/role type. Gaps: location outside preferences."
+ },
+ "remote_worldwide": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "Worldwide remote",
+  "role_match": "Mid-level - target level",
+  "score": 67.0,
+  "summary": "Moderate match: primary domain (Backend / distributed systems), target seniority/role type. Gaps: remote with geographic restrictions."
+ },
+ "tlv_hybrid_4_days": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "Tel Aviv area hybrid (4 days/week - above preferred limit)",
+  "role_match": "Senior - target level",
+  "score": 77.0,
+  "summary": "Strong match: primary domain (Backend / distributed systems), preferred location, target seniority/role type."
+ },
+ "tlv_hybrid_backend_senior": {
+  "bonus_signals": [
+   "Go and/or Kubernetes in the stack",
+   "strong engineering culture"
+  ],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "Tel Aviv area hybrid (2 days/week)",
+  "role_match": "Senior - target level",
+  "score": 92.0,
+  "summary": "Strong match: primary domain (Backend / distributed systems), preferred location, target seniority/role type, 2 bonus signal(s)."
+ },
+ "tlv_onsite_mid": {
+  "bonus_signals": [],
+  "dealbreaker": false,
+  "dealbreaker_reason": "",
+  "domain_match": "Primary domain match — Backend / distributed systems",
+  "engine": "rules",
+  "location_match": "Tel Aviv area on-site",
+  "role_match": "Mid-level - target level",
+  "score": 73.0,
+  "summary": "Moderate match: primary domain (Backend / distributed systems), acceptable location, target seniority/role type."
+ }
+}

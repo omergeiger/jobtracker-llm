@@ -1,0 +1,11 @@
+sqlalchemy>=2.0
+pydantic>=2.0
+httpx
+beautifulsoup4
+python-dateutil
+pyyaml
+streamlit
+ollama
+python-dotenv
+
+# Optional: LinkedIn source (off by default). Install manually: pip install python-jobspy

@@ -1,0 +1,7 @@
+# Ashby slug registry.
+# slug = the board name in jobs.ashbyhq.com/{slug}
+
+confirmed:
+  - {slug: "monday.com", name: "monday.com"}
+
+candidates: []

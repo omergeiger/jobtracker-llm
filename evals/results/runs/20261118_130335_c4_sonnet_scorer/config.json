@@ -1,0 +1,47 @@
+{
+  "run": "20261118_130335_c4_sonnet_scorer",
+  "steps": [
+    {
+      "step": "judge_relevance",
+      "at": "2026-11-18T13:04:23",
+      "git_commit": "edefc64",
+      "git_dirty": false,
+      "db": "examples/demo/jobtracker.db",
+      "db_sha256": "c5f11c903f7c3f00",
+      "labels_sha256": "d7853bb415660f81",
+      "judge_model": "sonnet",
+      "n_labeled": 40,
+      "n_todo": 40,
+      "workers": 5,
+      "wall_s": 47.5,
+      "errors": []
+    },
+    {
+      "step": "score",
+      "at": "2026-11-18T13:05:35",
+      "git_commit": "edefc64",
+      "git_dirty": false,
+      "db": "examples/demo/jobtracker.db",
+      "db_sha256": "c5f11c903f7c3f00",
+      "labels_sha256": "d7853bb415660f81",
+      "scorer": "claude/sonnet",
+      "n": 40,
+      "workers": 5,
+      "wall_s": 72.5,
+      "errors": [],
+      "total_cost_usd": 0.5385,
+      "note": "Same prompt as the Ollama engine (scoring/engines/llm_prompt.py); not written to the DB."
+    },
+    {
+      "step": "report",
+      "at": "2026-11-18T13:05:41",
+      "git_commit": "edefc64",
+      "git_dirty": false,
+      "db": "examples/demo/jobtracker.db",
+      "db_sha256": "c5f11c903f7c3f00",
+      "labels_sha256": "d7853bb415660f81",
+      "n_posts": 630,
+      "n_labels": 40
+    }
+  ]
+}

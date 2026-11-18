@@ -1,0 +1,39 @@
+# JobSpy / LinkedIn search queries.
+# Each entry is one scrape run: `slug` = search term, `location` = LinkedIn location filter
+# (leave it out to search without a location filter).
+# Results are deduplicated by apply_url in IngestService, so overlapping queries are safe.
+# Output files are named after slug (spaces allowed); re-running overwrites the previous file.
+# The queries below fit the fictional demo persona (examples/dana_example); replace them with your own.
+
+# Off by default: excluded from `run_sourcing` runs of all sources. Set to true to include it,
+# or run it explicitly with `--source jobspy` (needs `pip install python-jobspy`).
+enabled: false
+
+confirmed:
+  - slug: "backend engineer"
+    name: "Backend Engineer - Israel"
+    location: "Israel"
+
+  - slug: "platform engineer"
+    name: "Platform Engineer - Israel"
+    location: "Israel"
+
+  - slug: "software engineer python"
+    name: "SWE Python - Israel"
+    location: "Israel"
+
+  - slug: "golang developer"
+    name: "Go Developer - Israel"
+    location: "Israel"
+
+candidates:
+  # Not run: only `confirmed` entries are fetched. Promote an entry once its results look useful.
+  - slug: "fintech backend engineer"
+    name: "Fintech Backend Engineer - Israel"
+    location: "Israel"
+    notes: "domain-specific; likely overlaps with 'backend engineer', check result volume first"
+
+  - slug: "data infrastructure engineer"
+    name: "Data Infrastructure Engineer - Israel"
+    location: "Israel"
+    notes: "open_to domain; may pull in data engineering roles that score too high"

@@ -1,0 +1,52 @@
+{
+  "run": "20261118_094300_faithfulness_ollama",
+  "steps": [
+    {
+      "step": "judge_faithfulness",
+      "at": "2026-11-18T09:43:00",
+      "git_commit": "29117ea",
+      "git_dirty": false,
+      "db": "examples/demo/jobtracker.db",
+      "db_sha256": "c5f11c903f7c3f00",
+      "labels_sha256": null,
+      "judge_model": "sonnet",
+      "n": 20,
+      "seed": 11,
+      "scorer": "stored DB breakdown (ollama)",
+      "apply_urls": [
+        "https://jobs.ashbyhq.com/monday.com/a2419fe8-1b49-4659-b8d9-cdb2ab724130",
+        "https://www.taboola.com/careers/job/7921309?gh_jid=7921309",
+        "https://jobs.ashbyhq.com/monday.com/b980719c-fdfe-4055-9326-55466ee9f1be",
+        "https://jobs.ashbyhq.com/monday.com/a1c969cc-a35f-472f-a994-e44170f1d1ff",
+        "https://jobs.lever.co/cloudinary/7f3812ca-d4c6-4d7f-acb0-9206c2984a64",
+        "https://www.taboola.com/careers/job/8207404?gh_jid=8207404",
+        "https://job-boards.eu.greenhouse.io/teads1/jobs/4777757101",
+        "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5030918101",
+        "https://jobs.lever.co/cloudinary/f4f6b55a-2344-423f-a207-a9119ff67f3f",
+        "https://jobs.ashbyhq.com/monday.com/d04aa4fe-87fb-43ee-b66c-53ed07ed5af2",
+        "https://www.taboola.com/careers/job/8346103?gh_jid=8346103",
+        "https://job-boards.eu.greenhouse.io/aidocmedical/jobs/5032301101",
+        "https://boards.eu.greenhouse.io/nice/jobs/5029085101?gh_jid=5029085101",
+        "https://jobs.ashbyhq.com/monday.com/983f5620-4a40-4658-a52e-18bb3805106d",
+        "https://job-boards.greenhouse.io/gongio/jobs/4724638006",
+        "https://dreamgroup.com/comeet-positions/senior-threat-intelligence-researcher-2126d",
+        "https://boards.eu.greenhouse.io/nice/jobs/5027679101?gh_jid=5027679101",
+        "https://www.augury.com/careers/8894123002?gh_jid=8894123002",
+        "https://boards.eu.greenhouse.io/nice/jobs/4982756101?gh_jid=4982756101",
+        "https://www.taboola.com/careers/job/8244719?gh_jid=8244719"
+      ],
+      "note": "Run before the run-folder layout existed; migrated from evals/results/judge_faithfulness.jsonl (same records, fields renamed model->judge_model, engine->scorer)."
+    },
+    {
+      "step": "report",
+      "at": "2026-11-18T09:55:05",
+      "git_commit": "29117ea",
+      "git_dirty": true,
+      "db": "examples/demo/jobtracker.db",
+      "db_sha256": "c5f11c903f7c3f00",
+      "labels_sha256": "f26710109841a334",
+      "n_posts": 630,
+      "n_labels": 0
+    }
+  ]
+}

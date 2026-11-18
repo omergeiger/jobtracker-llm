@@ -1,0 +1,46 @@
+# Companies to fetch, per ATS - fictional test persona (Israel Israeli), written by the build-profile skill.
+# When this file exists it replaces the shipped registry: only the companies below are fetched.
+#
+# slug = the company's board name on that ATS:
+#   greenhouse  boards.greenhouse.io/<slug>   (case-sensitive)
+#   lever       jobs.lever.co/<slug>
+#   ashby       jobs.ashbyhq.com/<slug>
+#   comeet      "<uid>:<token>", both embedded in the company's careers page HTML
+# Find and verify slugs with: python scripts/probe_companies.py "Company A" "Company B"
+
+greenhouse:
+  - {slug: via, name: "Via"}
+  - {slug: catonetworks, name: "Cato Networks"}
+  - {slug: payoneer, name: "Payoneer"}
+  - {slug: gongio, name: "Gong"}
+  - {slug: jfrog, name: "JFrog"}
+  - {slug: similarweb, name: "Similarweb"}
+  - {slug: taboola, name: "Taboola"}
+  - {slug: appsflyer, name: "AppsFlyer"}
+  - {slug: riskified, name: "Riskified"}
+  - {slug: fireblocks, name: "Fireblocks"}
+  - {slug: axonius, name: "Axonius"}
+  - {slug: yotpo, name: "Yotpo"}
+  - {slug: forter, name: "Forter"}
+  - {slug: island, name: "Island"}
+  - {slug: datarails, name: "Datarails"}
+  - {slug: transmitsecurity, name: "Transmit Security"}
+  - {slug: pagaya, name: "Pagaya"}
+  - {slug: optimove, name: "Optimove"}
+  - {slug: bringg, name: "Bringg"}
+
+lever: []
+
+ashby:
+  - {slug: monday.com, name: "monday.com"}
+  - {slug: lemonade, name: "Lemonade"}
+  - {slug: snyk, name: "Snyk"}
+  - {slug: moonactive, name: "Moon Active"}
+  - {slug: viz.ai, name: "Viz.ai"}
+  - {slug: honeybook, name: "HoneyBook"}
+  - {slug: sentra, name: "Sentra"}
+  - {slug: unit, name: "Unit"}
+
+comeet:
+  - {slug: "60.002:62188018812631018862C4188", name: "Fiverr"}
+  - {slug: "E6.00C:6EC2988DD837606EC376014C43E4C376014C4", name: "Navina"}

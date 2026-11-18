@@ -1,0 +1,22 @@
+{
+  "name": "Dana Example",
+  "headline": "Backend Software Engineer | Python · Go · Distributed Systems",
+  "contact": {"location": "Tel Aviv, Israel"},
+  "professional_profile": "Backend engineer with 4 years of experience building and operating cloud services in Python and Go. Owns services end to end, from API design to on-call. Enjoys reliable distributed systems, clean APIs and developer-friendly platforms. Looking for a mid/senior backend role in a product-driven team.",
+  "experience": [
+    {"title": "Software Engineer II, Payments Platform", "company": "Nimbuspay", "years": "2023-present", "bullets": [
+      "Built a Go payment-routing service handling 1,500 requests/sec with 99.95% availability.",
+      "Migrated a monolith's billing module to event-driven microservices on Kafka and Kubernetes.",
+      "Cut p95 API latency by 40% through PostgreSQL query tuning and Redis caching.",
+      "Introduced contract tests and canary deploys; owned on-call for 3 services."]},
+    {"title": "Backend Developer", "company": "Orbitly", "years": "2021-2023", "bullets": [
+      "Developed REST and gRPC APIs in Python (FastAPI) for a B2B analytics product.",
+      "Built data ingestion jobs on AWS (SQS, Lambda, S3) processing 20M events/day.",
+      "Set up observability with Prometheus, Grafana and structured logging."]},
+    {"title": "Software Engineering Student", "company": "Tel Aviv University research lab", "years": "2020-2021", "bullets": [
+      "Built internal tooling in Python for experiment tracking."]}
+  ],
+  "education": [{"degree": "B.Sc., Computer Science", "institution": "Tel Aviv University", "years": "2017-2021"}],
+  "skills": ["Go", "Python", "SQL", "FastAPI", "gRPC", "PostgreSQL", "Redis", "Kafka", "Docker", "Kubernetes", "Terraform", "AWS", "GCP", "Prometheus", "Grafana", "GitHub Actions"],
+  "projects": []
+}

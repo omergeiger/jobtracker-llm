@@ -1,0 +1,15 @@
+# Greenhouse slug registry.
+# slug = the board name in boards-api.greenhouse.io/v1/boards/{slug}/jobs
+# confirmed: fetched on every run. candidates: not fetched; a place to park slugs to test.
+
+confirmed:
+  - {slug: similarweb,    name: SimilarWeb}
+  - {slug: taboola,       name: Taboola}
+  - {slug: gongio,        name: Gong}
+  - {slug: augury,        name: Augury}
+  - {slug: nice,          name: NICE}
+  - {slug: aidocmedical,  name: Aidoc}
+  - {slug: lightricks,    name: Lightricks}
+  - {slug: teads1,        name: Teads}
+
+candidates: []

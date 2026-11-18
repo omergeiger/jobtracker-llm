@@ -1,0 +1,19 @@
+# Companies to fetch, per ATS. Written by the build-profile skill; edit freely.
+# Copy to resources/companies.yaml (or $JOBTRACKER_HOME/companies.yaml).
+# When this file exists it replaces the shipped registry: only the companies below are fetched.
+#
+# slug = the company's board name on that ATS:
+#   greenhouse  boards.greenhouse.io/<slug>   (case-sensitive)
+#   lever       jobs.lever.co/<slug>
+#   ashby       jobs.ashbyhq.com/<slug>
+#   comeet      "<uid>:<token>", both embedded in the company's careers page HTML
+# Find and verify slugs with: python scripts/probe_companies.py "Company A" "Company B"
+
+greenhouse:
+  - {slug: <slug>, name: <Company name>}
+
+lever: []
+
+ashby: []
+
+comeet: []
